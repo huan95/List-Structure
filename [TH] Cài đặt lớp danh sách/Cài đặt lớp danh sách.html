@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="danh sach.js"></script>
+</head>
+<body>
+<script>
+    // var names = new List();
+    //
+    // names.append("Cynthia");
+    // names.append("Raymond");
+    // names.append("Barbara");
+    // document.write(names.toString());
+
+    // names.remove("Raymond");
+    // document.write("<br>" + names.toString());
+
+    // names.insert("Raymond");
+    // document.write("<br>" + names.toString());
+
+    // names.clear(names);
+    // names.dataStore = [];
+
+    var names = new List();
+
+    names.append("Clayton");
+    names.append("Raymond");
+    names.append("Cynthia");
+    names.append("Jennifer");
+    names.append("Bryan");
+    names.append("Danny");
+
+    names.front();
+    document.write(names.getElement());
+
+    names.next();
+    document.write("<br>" + names.getElement());
+
+    names.next();
+    names.next();
+    names.prev();
+    document.write("<br>" + names.getElement());
+
+
+
+
+
+
+
+
+
+
+
+</script>
+
+</body>
+</html>
